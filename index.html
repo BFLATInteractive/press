@@ -12,23 +12,8 @@
     <link href="/press/css/navbar.css" rel="stylesheet" type="text/css">
 
     <style>
-        img.trans { /* checkered background for transparent images */
-            background-image:
-                -moz-linear-gradient(45deg, rgb(153, 153, 153) 25%, transparent 25%),
-                -moz-linear-gradient(-45deg, rgb(153, 153, 153) 25%, transparent 25%),
-                -moz-linear-gradient(45deg, transparent 75%, rgb(153, 153, 153) 75%),
-                -moz-linear-gradient(-45deg, transparent 75%, rgb(153, 153, 153) 75%);
-            background-image:
-                -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgb(153, 153, 153)), color-stop(.25, transparent)),
-                -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgb(153, 153, 153)), color-stop(.25, transparent)),
-                -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, rgb(153, 153, 153))),
-                -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, rgb(153, 153, 153)));
-    
-            -moz-background-size: 100px 100px;
-            background-size: 100px 100px;
-            -webkit-background-size: 100px 101px; /* override value for shitty webkit */
-    
-            background-position: 0 0, 50px 0, 50px -50px, 0px 50px;
+        .trans-bkg { /* background for transparent images */
+            background-color: rgb(223, 223, 223);
         }
     </style>
 
@@ -164,10 +149,10 @@
 						<a href="/press/img/logos/SquareBW.png" target="_blank"><img src="/press/img/logos/SquareBW.png" /></a>
 					</div>
 					<div class="uk-width-medium-1-2">
-						<a href="/press/img/logos/SquareBtransp.png" target="_blank"><img class="img.trans" src="/press/img/logos/SquareBtransp.png" /></a>
+						<a href="/press/img/logos/SquareBtransp.png" target="_blank"><img class="trans-bkg" src="/press/img/logos/SquareBtransp.png" /></a>
 					</div>
 					<div class="uk-width-medium-1-2">
-						<a href="/press/img/logos/SquareWtransp.png" target="_blank"><img class="img.trans" src="/press/img/logos/SquareWtransp.png" /></a>
+						<a href="/press/img/logos/SquareWtransp.png" target="_blank"><img class="trans-bkg" src="/press/img/logos/SquareWtransp.png" /></a>
 					</div>
 				</div>
 				<hr>
